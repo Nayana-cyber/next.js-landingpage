@@ -1,0 +1,119 @@
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: radial-gradient(rgb(179, 233, 179), rgb(185, 226, 160));
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #2c3e50;
+    font-size: 2.5em;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.introduction {
+    background: #ecf0f1;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.introduction h2 {
+    color: #2980b9;
+    font-size: 2em;
+}
+
+.introduction p {
+    color: #34495e;
+    font-size: 1.2em;
+}
+
+.job-listings {
+    background: #ffffff;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.job-listings h2 {
+    color: #2980b9;
+    font-size: 2em;
+}
+
+.job-listings ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.job-listings li {
+    border-bottom: 1px solid #bdc3c7;
+    padding: 15px 0;
+}
+
+.job-listings h3 {
+    font-size: 1.8em;
+    color: #34495e;
+}
+
+.application-process {
+    background: #ecf0f1;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.application-process h2 {
+    color: #2980b9;
+    font-size: 2em;
+}
+
+.application-form input[type="text"],
+.application-form input[type="email"],
+.application-form input[type="file"] {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+button[type="submit"] {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 15px 30px; 
+    font-size: 1.2em; 
+    color: white;
+    background-color: #27ae60;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button[type="submit"]:hover {
+    background-color: #219653;
+    transform: scale(1.05);
+}
+
+.testimonials {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.testimonials h2 {
+    color: #2980b9;
+    font-size: 2em;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    background-color: #2980b9;
+    color: white;
+    margin-top: 20px;
+}
